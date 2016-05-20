@@ -1,0 +1,91 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    background: #becccc;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -3px;
+    padding-top: 10%;
+}
+
+.banner {
+    font-size: 90px;
+    width: 100%;
+
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+    0 2px 0 hsl(174,5%,75%),
+    0 3px 0 hsl(174,5%,70%),
+    0 4px 0 hsl(174,5%,66%),
+    0 5px 0 hsl(174,5%,64%),
+    0 6px 0 hsl(174,5%,62%),
+    0 7px 0 hsl(174,5%,61%),
+    0 8px 0 hsl(174,5%,60%),
+
+    0 0 5px rgba(0,0,0,.05),
+    0 1px 3px rgba(0,0,0,.2),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.3);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    border: 0;
+    width: 270px;
+    padding: 10px;
+    margin: 20px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    outline: 0;
+}
+
+button:hover {
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+}
+
+button:active {
+    margin-top: 22px;
+    margin-bottom: -2px;
+}
+
+.delete {
+    color: #FFF;
+    background: #bc3737;
+    -webkit-box-shadow: 0 3px 1px #950d0d;
+    -moz-box-shadow: 0 3px 1px #950d0d;
+    box-shadow: 0 3px 1px #950d0d;
+}
+.delete:hover {background: #b23737;}
+.delete:active {
+    margin-top: 22px;
+    -webkit-box-shadow: 0 1px 1px #950d0d;
+    -moz-box-shadow: 0 1px 1px #950d0d;
+    box-shadow: 0 1px 1px #950d0d;
+}
+
+.add {
+    color: #FFF;
+    background: #8bbc37;
+    -webkit-box-shadow: 0 3px 1px #64950d;
+    -moz-box-shadow: 0 3px 1px #64950d;
+    box-shadow: 0 3px 1px #64950d;
+}
+.add:hover {background: #85b237;}
+.add:active {
+    -webkit-box-shadow: 0 1px 1px #64950d;
+    -moz-box-shadow: 0 1px 1px #64950d;
+    box-shadow: 0 1px 1px #64950d;
+}
